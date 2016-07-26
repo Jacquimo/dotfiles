@@ -13,6 +13,7 @@ export lab="$home/classes/cs390/hmwk/assignment5"
 export dwn="$HOME/Downloads"
 export trh="$HOME/.trash"
 export dotfiles="$HOME/dotfiles"
+export data="ghousto@data.cs.purdue.edu"
 
 # Folder locations for classes
 export class="$home/classes"
@@ -154,7 +155,7 @@ alias cvt='c $vit'
 # -----------
 # SSH ALIASES
 # -----------
-alias sdata='ssh ghousto@data.cs.purdue.edu'
+alias sdata='ssh $data'
 
 
 # --------------
