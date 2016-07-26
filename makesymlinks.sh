@@ -2,6 +2,8 @@
 ############################
 # .make.sh
 # This script creates symlinks from the home directory to any desired dotfiles in ~/dotfiles should only be run once.
+# This setup is taken from http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/
+# 	For further help or to start with fresh code, follow the steps detailed in the link.
 #
 # To add files to be included in the backup of this repo, follow these commands and instructions:
 # 		cd ~
