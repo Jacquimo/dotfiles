@@ -18,9 +18,9 @@
 # Variables
 # ---------
 
-dir=~/dotfiles                    # dotfiles directory
-olddir=~/dotfiles_old             # old dotfiles backup directory
-files="bash_profile"    					# list of files/folders to symlink in homedir
+dir=~/dotfiles                    	# dotfiles directory
+olddir=~/dotfiles_old             	# old dotfiles backup directory
+files="bash_profile git-prompt.sh"  # list of files/folders to symlink in homedir
 
 # ---------
 
