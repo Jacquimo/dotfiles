@@ -19,4 +19,4 @@ This bash setup is maintained by and for **Gray Houston**. However, feel free to
 
 ## License
 
-TODO: Add a license to the project and then put its informations here.
+This project follows the [MIT License](https://opensource.org/licenses/MIT).
