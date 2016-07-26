@@ -1,0 +1,10 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name = Gray Houston
+#	email = grayhouston@purdue.edu
+[user]
+	name = Gray Houston
+	email = ghousto@purdue.edu
+[push]
+	default = simple
