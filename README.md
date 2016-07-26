@@ -5,13 +5,13 @@ In order to have a single look and feel for bash across all UNIX terminals, I ha
 ## Installation
 
 Run these commands in a unix terminal to setup the project
-'''
+```
 cd ~
 git clone https://github.com/Jacquimo/dotfiles.git
 cd ~/dotfiles
 chmod +x makesymlinks.sh
 ./makesymlinks.sh
-'''
+```
 
 ## Contributors
 
