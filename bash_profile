@@ -96,6 +96,7 @@ alias oln='o $linear/"Applied-Linear-Statistical-Models-5th.pdf"'
 # ATOM ALIASES
 # ------------
 alias abp='atom $bp'
+alias arm='a $(g rev-parse --show-toplevel)/README.*' # open the git repo's README
 
 
 # ---------------
