@@ -151,6 +151,12 @@ alias cri='c $regularIonic'
 alias cvt='c $vit'
 
 
+# -----------
+# SSH ALIASES
+# -----------
+alias sdata='ssh ghousto@data.cs.purdue.edu'
+
+
 # --------------
 # SOURCE ALIASES
 # --------------
