@@ -18,11 +18,11 @@
 # Variables
 # ---------
 
-dir=~/dotfiles                    	# dotfiles directory
-olddir=~/dotfiles_old             	# old dotfiles backup directory
-files="bash_profile git-prompt.sh gitconfig"  # list of files/folders to symlink in homedir
+dir=~/dotfiles										# dotfiles directory
+olddir=~/dotfiles_old							# old dotfiles backup directory
+# list of files/folders to symlink in homedir
+files="bash_profile git-prompt.sh gitconfig"
 
-# ---------
 
 # create dotfiles_old in homedir
 echo "Creating $olddir for backup of any existing dotfiles in ~"
