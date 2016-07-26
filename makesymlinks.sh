@@ -3,11 +3,12 @@
 # .make.sh
 # This script creates symlinks from the home directory to any desired dotfiles in ~/dotfiles should only be run once.
 #
-# To setup the working environment, enter these terminal commands:
-# 			cd ~
-# 			git clone https://github.com/Jacquimo/dotfiles.git
-# 			cd ~/dotfiles
-# 			./makesymlinks.sh
+# To add files to be included in the backup of this repo, follow these commands and instructions:
+# 		cd ~
+# 		mv .someDotFile dotfiles/someDotFile
+# 				# Notice how in the previous command, the "." character was dropped. This is for convenience, but the script will expect
+# 				# the files in the ~/dotfiles/ folder to not have a leading "." character.
+# 		Add "someDotFile" name to the "files" variable (space separated list) defined below, excluding the leading "." character
 #
 ############################
 
