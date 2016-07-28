@@ -78,7 +78,6 @@ alias down='curl -O' # Download a file from the internet
 alias jsc='/System/Library/Frameworks/JavaScriptCore.framework/Versions/Current/Resources/jsc'
 alias rmd='rm -r' # Removes directory and all sub-files/sub-directories contained within.
 				  #Deletes even if the parameter is a file and not a directory.
-
 # commands to test internet connection by pinging Google
 alias tg='ping 8.8.8.8'
 alias tg2='ping 8.8.4.4'
@@ -90,6 +89,13 @@ alias oai='o $ai/"Artificial Intelligence A Modern Approach (3rd Edition).pdf"'
 alias otm='o $tmser/"Chris Chatfield The Analysis Of Time Series - An Introduction  2003.pdf"'
 alias ocmp='o $compiler/Compilers-Principles-Techniques-and-Tools-\(2nd-Edition\).pdf'
 alias oln='o $linear/"Applied-Linear-Statistical-Models-5th.pdf"'
+
+
+# -------------
+# IONIC ALIASES
+# -------------
+alias browse='ionic serve -l'
+alias emulate='ionic emulate ios --target="iPhone-6s"'
 
 
 # ------------
