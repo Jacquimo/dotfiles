@@ -157,6 +157,7 @@ alias cwk='c $work'
 alias cmi='c $materialIonic'
 alias cri='c $regularIonic'
 alias cvt='c $vit'
+alias cti='c ~/Google\ Drive/Titan\ Developmental/'
 
 
 # -----------
