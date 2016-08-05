@@ -1,0 +1,34 @@
+# ---------------------------------------------------------------------
+#
+# This file is a list of common and useful commands and tips for Emacs.
+#
+# ---------------------------------------------------------------------
+
+
+
+# ------------------------
+# CURSOR MOVEMENT COMMANDS
+# ------------------------
+<ctrl> - a : Move cursor to beginning of line
+<ctrl> - e : Move cursor to end of line
+<ctrl> - n : Move cursor to next line
+<ctrl> - p : Move cursor to previous line
+
+
+
+# ------------------------
+# SCREEN MOVEMENT COMMANDS
+# ------------------------
+<ctrl> - v : Move file forward one screenful
+<esc>  - v : Move file backward one screenful
+<esc>  - > : Move to end of file/buffer
+<esc>  - < : Move to beginning of buffer
+
+
+
+# --------------------------
+# GENERAL IMPORTANT COMMANDS
+# --------------------------
+<ctrl> - x, <ctrl> - s : Save current Emacs buffer
+<ctrl> - x, <ctrl> - c : Kill Emacs and prompt saving of current buffer
+<ctrl> - x, u					 : Undo last command
