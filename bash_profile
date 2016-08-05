@@ -1,12 +1,13 @@
-# ------------
-# Gray Houston
-# ------------
+# ---------------------------------
+# Author: Gray Houston
+# contact: gray.s.houston@gmail.com
+# ---------------------------------
 
 # Important locations
 export bp="$HOME/.bash_profile"
-export home="$HOME/home" # The home location of my files/filesystem hierarchy
-						 # I treat this like the "true" home directory of file system for my user account, as accessed through the
-						 # terminal.
+export home="$HOME/home"	# The home location of my files/filesystem hierarchy
+						 							# I treat this like the "true" home directory of file system for my user account, as accessed through
+													# the terminal.
 export usb="/Volumes"
 export desk="$HOME/Desktop"
 export lab="$home/classes/cs390/hmwk/assignment5"
@@ -14,7 +15,7 @@ export dwn="$HOME/Downloads"
 export trh="$HOME/.trash"
 export dotfiles="$HOME/dotfiles"
 export data="ghousto@data.cs.purdue.edu" # CS Department "Data" remote server to ssh into
-export drive="$HOME/Google Drive"
+export drive="$HOME/Google Drive" # Quotation marks must be used with this var b/c of space. E.g. `c "$drive"`
 
 # Folder locations for classes
 export class="$home/classes"
@@ -29,14 +30,14 @@ export materialIonic="$home/programming/projects/material-ionic-titan-app"
 export regularIonic="$home/programming/projects/regular-ionic-titan-app"
 export vit="$home/programming/projects/vitamin-builder"
 
-# Important environmental variables
-#export PS1="\n\w\n\u$ "
-export EDITOR="/usr/bin/emacs" # set default terminal editor to Emacs
+# Overwritten important environmental variables
+export EDITOR="/usr/bin/emacs" # Set default terminal editor to Emacs
 
 # Arne's epic timestamped prompt with return status indicator and status-colored (green if fresh, or red if unstaged, or yellow if
 # staged) git branch:
 export PS1='\[\e[01;30m\]\t`if [ $? = 0 ]; then echo "\[\e[32m\] ✔ "; else echo "\[\e[31m\] ✘ "; fi`\[\e[00;37m\]\u\[\e[01;37m\]:\n`[[ $(git status 2> /dev/null | head -n2 | tail -n1) != "# Changes to be committed:" ]] && echo "\[\e[31m\]" || echo "\[\e[33m\]"``[[ $(git status 2> /dev/null | tail -n1) != "nothing to commit (working directory clean)" ]] || echo "\[\e[32m\]"`$(__git_ps1 "(%s)\[\e[00m\]")\[\e[01;34m\]\w\[\e[00m\]: '
 PS1="\n$PS1\n$ "
+
 
 
 # ----------
@@ -50,8 +51,9 @@ alias .la='.al'
 alias .le='. | less'
 
 
+
 # ----------------
-# General Commands
+# GENERAL COMMANDS
 # ----------------
 alias h='history'
 alias p='pwd'
@@ -78,8 +80,9 @@ alias o='open'
 alias down='curl -O' # Download a file from the internet
 alias jsc='/System/Library/Frameworks/JavaScriptCore.framework/Versions/Current/Resources/jsc'
 alias rmd='rm -r' # Removes directory and all sub-files/sub-directories contained within.
-				  #Deletes even if the parameter is a file and not a directory.
+				  				# Deletes even if the parameter is a file and not a directory.
 alias dv='unset' # This is an alias for the command that deletes exported environmental variables
+
 # commands to test internet connection by pinging Google
 alias tg='ping 8.8.8.8'
 alias tg2='ping 8.8.4.4'
@@ -93,11 +96,13 @@ alias ocmp='o $compiler/Compilers-Principles-Techniques-and-Tools-\(2nd-Edition\
 alias oln='o $linear/"Applied-Linear-Statistical-Models-5th.pdf"'
 
 
+
 # -------------
 # IONIC ALIASES
 # -------------
 alias browse='ionic serve -l'
 alias emulate='ionic emulate ios --target="iPhone-6s"'
+
 
 
 # ------------
@@ -107,16 +112,19 @@ alias abp='atom $bp'
 alias arm='a $(g rev-parse --show-toplevel)/README.*' # open the git repo's README
 
 
+
 # ---------------
 # SUBLIME ALIASES
 # ---------------
 alias sp='s $bp'
 
 
+
 # ----------------
 # BRACKETS ALIASES
 # ----------------
 alias bbp='b $bp'
+
 
 
 # -----------
@@ -135,11 +143,13 @@ alias glg='g log'
 alias gaam='ga; gam'
 
 
+
 # ----------
 # CD ALIASES
 # ----------
 alias c='cd'
 alias ..='c ..'
+
 # Key locations in file hierarchy
 alias ch='c $home'
 alias cdesk='c $desk'
@@ -148,13 +158,15 @@ alias clb='clab'
 alias cdw='c $dwn'
 alias ctrh='c $trh'
 alias cdt='c $dotfiles'
-# Class Folders
+
+# Classes Folders
 alias ccl='c $class'
 alias cai='c $ai'
 alias ctm='c $tmser'
 alias cln='c $linear'
 alias cmp='c $compiler'
 alias cwk='c $work'
+
 # Startup project folders
 alias cmi='c $materialIonic'
 alias cri='c $regularIonic'
@@ -163,10 +175,12 @@ alias cti='c ~/Google\ Drive/Titan\ Developmental/'
 alias cdr='c "$drive"'
 
 
+
 # -----------
 # SSH ALIASES
 # -----------
 alias sdata='ssh $data'
+
 
 
 # --------------
@@ -175,24 +189,28 @@ alias sdata='ssh $data'
 alias sbp='src $bp'
 
 
-# CD into $home directory before prompt is sent
-c $home
+
+# ----------------------------
+# FINAL SETUP FOR THE TERMINAL
+# ----------------------------
+c $home # CD into $home directory before prompt is sent
 
 # Setting PATH for Python 3.5
 # The orginal version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
 export PATH
-
 src ~/.git-prompt.sh
 
 
 
+# --------------------------------
+# AUTOMATICALLY GENERATED NVM CODE
+# --------------------------------
+# Setup NVM stuff
 export NVM_DIR="/Users/grayhouston/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
-
-
-# NVM
+# More NVM stuff
 if [ -s ~/.nvm/nvm.sh ]; then
 	NVM_DIR=~/.nvm
 	source ~/.nvm/nvm.sh
