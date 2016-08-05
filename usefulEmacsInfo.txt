@@ -13,6 +13,8 @@
 <ctrl> - e : Move cursor to end of line
 <ctrl> - n : Move cursor to next line
 <ctrl> - p : Move cursor to previous line
+<esc>  - f : Move cursor to next word
+<esc>  - b : Move cursor to previous word
 
 
 
