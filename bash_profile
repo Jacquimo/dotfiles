@@ -29,6 +29,7 @@ export work="$home/programming/projects/vitamin-builder"
 # Startup file locations
 export materialIonic="$home/programming/projects/material-ionic-titan-app"
 export regularIonic="$home/programming/projects/regular-ionic-titan-app"
+export regularTitanTemplates="$regularIonic/www/templates"
 export vit="$home/programming/projects/vitamin-builder"
 
 # Overwritten important environmental variables
@@ -148,6 +149,7 @@ alias clb='clab'
 alias cdw='c $dwn'
 alias ctrh='c $trh'
 alias cdt='c $dotfiles'
+alias cdr='c "$drive"'
 
 # Classes Folders
 alias ccl='c $class'
@@ -160,9 +162,9 @@ alias cwk='c $work'
 # Startup project folders
 alias cmi='c $materialIonic'
 alias cri='c $regularIonic'
+alias crt='c $regularTitanTemplates'
 alias cvt='c $vit'
-alias cti='c ~/Google\ Drive/Titan\ Developmental/'
-alias cdr='c "$drive"'
+alias cti='c "$drive"/Titan\ Developmental/'
 
 
 
