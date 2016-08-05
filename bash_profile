@@ -15,7 +15,8 @@ export dwn="$HOME/Downloads"
 export trh="$HOME/.trash"
 export dotfiles="$HOME/dotfiles"
 export data="ghousto@data.cs.purdue.edu" # CS Department "Data" remote server to ssh into
-export drive="$HOME/Google Drive" # Quotation marks must be used with this var b/c of space. E.g. `c "$drive"`
+export drive="$HOME/Google Drive" # Quotation marks must be used with this var b/c of space. E.g. `c "$drive"
+export usefulEmacs="$dotfiles/usefulEmacsInfo.txt"
 
 # Folder locations for classes
 export class="$home/classes"
@@ -82,6 +83,8 @@ alias jsc='/System/Library/Frameworks/JavaScriptCore.framework/Versions/Current/
 alias rmd='rm -r' # Removes directory and all sub-files/sub-directories contained within.
 				  				# Deletes even if the parameter is a file and not a directory.
 alias dv='unset' # This is an alias for the command that deletes exported environmental variables
+alias cem='cat $usefulEmacs'
+alias ceml='cem | l'
 
 # commands to test internet connection by pinging Google
 alias tg='ping 8.8.8.8'
@@ -110,20 +113,7 @@ alias emulate='ionic emulate ios --target="iPhone-6s"'
 # ------------
 alias abp='atom $bp'
 alias arm='a $(g rev-parse --show-toplevel)/README.*' # open the git repo's README
-
-
-
-# ---------------
-# SUBLIME ALIASES
-# ---------------
-alias sp='s $bp'
-
-
-
-# ----------------
-# BRACKETS ALIASES
-# ----------------
-alias bbp='b $bp'
+alias aem='a $usefulEmacs'
 
 
 
