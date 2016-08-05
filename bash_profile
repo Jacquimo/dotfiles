@@ -13,7 +13,8 @@ export lab="$home/classes/cs390/hmwk/assignment5"
 export dwn="$HOME/Downloads"
 export trh="$HOME/.trash"
 export dotfiles="$HOME/dotfiles"
-export data="ghousto@data.cs.purdue.edu"
+export data="ghousto@data.cs.purdue.edu" # CS Department "Data" remote server to ssh into
+export drive="$HOME/Google Drive"
 
 # Folder locations for classes
 export class="$home/classes"
@@ -158,6 +159,7 @@ alias cmi='c $materialIonic'
 alias cri='c $regularIonic'
 alias cvt='c $vit'
 alias cti='c ~/Google\ Drive/Titan\ Developmental/'
+alias cdr='c "$drive"'
 
 
 # -----------
