@@ -19,6 +19,7 @@ export drive="$HOME/Google Drive" # Quotation marks must be used with this var b
 export usefulEmacs="$dotfiles/usefulEmacsInfo.txt"
 
 # Programming Directory locations
+		# These locations may change frequently, as I will put down locations that I am using at the current time.
 export programming="$home/programming"
 export usefulLibs="$programming/usefulLibraries"
 export mdlTemplates="$usefulLibs/templatesForMDL"
