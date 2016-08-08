@@ -37,6 +37,7 @@ export materialIonic="$home/programming/projects/material-ionic-titan-app"
 export regularIonic="$home/programming/projects/regular-ionic-titan-app"
 export regularTitanTemplates="$regularIonic/www/templates"
 export vit="$home/programming/projects/vitamin-builder"
+export vitNpmLog="$vit/npmOutputLog.txt"
 
 # Overwritten important environmental variables
 export EDITOR="/usr/bin/emacs" # Set default terminal editor to Emacs
@@ -93,6 +94,7 @@ alias dv='unset' # This is an alias for the command that deletes exported enviro
 alias cue='cat $usefulEmacs'
 alias cuel='cem | l'
 alias nrun='npm start > npmOutputLog.txt &' # This command is what I use to start the Vitamin Builder web application
+alias cnl='cat $vitNpmLog'
 
 # commands to test internet connection by pinging Google
 alias tg='ping 8.8.8.8'
