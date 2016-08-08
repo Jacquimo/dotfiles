@@ -92,6 +92,7 @@ alias rmd='rm -r' # Removes directory and all sub-files/sub-directories containe
 alias dv='unset' # This is an alias for the command that deletes exported environmental variables
 alias cue='cat $usefulEmacs'
 alias cuel='cem | l'
+alias nrun='npm start > npmOutputLog.txt &' # This command is what I use to start the Vitamin Builder web application
 
 # commands to test internet connection by pinging Google
 alias tg='ping 8.8.8.8'
