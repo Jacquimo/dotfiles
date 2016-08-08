@@ -18,6 +18,7 @@ export data="ghousto@data.cs.purdue.edu" # CS Department "Data" remote server to
 export drive="$HOME/Google Drive" # Quotation marks must be used with this var b/c of space. E.g. `c "$drive"
 export usefulEmacs="$dotfiles/usefulEmacsInfo.txt"
 export programming="$home/programming"
+export usefulLibs="$programming/usefulLibraries"
 
 # Folder locations for classes
 export class="$home/classes"
@@ -152,6 +153,7 @@ alias ctrh='c $trh'
 alias cdt='c $dotfiles'
 alias cdr='c "$drive"'
 alias cpr='c $programming'
+alias cul='c $usefulLibs'
 
 # Classes Folders
 alias ccl='c $class'
