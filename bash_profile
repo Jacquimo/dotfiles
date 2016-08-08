@@ -17,8 +17,11 @@ export dotfiles="$HOME/dotfiles"
 export data="ghousto@data.cs.purdue.edu" # CS Department "Data" remote server to ssh into
 export drive="$HOME/Google Drive" # Quotation marks must be used with this var b/c of space. E.g. `c "$drive"
 export usefulEmacs="$dotfiles/usefulEmacsInfo.txt"
+
+# Programming Directory locations
 export programming="$home/programming"
 export usefulLibs="$programming/usefulLibraries"
+export mdlTemplates="$usefulLibs/templatesForMDL"
 
 # Folder locations for classes
 export class="$home/classes"
@@ -154,6 +157,7 @@ alias cdt='c $dotfiles'
 alias cdr='c "$drive"'
 alias cpr='c $programming'
 alias cul='c $usefulLibs'
+alias cmt='c $mdlTemplates'
 
 # Classes Folders
 alias ccl='c $class'
