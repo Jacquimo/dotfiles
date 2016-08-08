@@ -3,7 +3,7 @@
 # contact: gray.s.houston@gmail.com
 # ---------------------------------
 
-# Important locations
+# Important locations on my Mac's filesystem
 export bp="$HOME/.bash_profile"
 export home="$HOME/home"	# The home location of my files/filesystem hierarchy
 						 							# I treat this like the "true" home directory of file system for my user account, as accessed through
@@ -17,6 +17,7 @@ export dotfiles="$HOME/dotfiles"
 export data="ghousto@data.cs.purdue.edu" # CS Department "Data" remote server to ssh into
 export drive="$HOME/Google Drive" # Quotation marks must be used with this var b/c of space. E.g. `c "$drive"
 export usefulEmacs="$dotfiles/usefulEmacsInfo.txt"
+export programming="$home/programming"
 
 # Folder locations for classes
 export class="$home/classes"
@@ -150,6 +151,7 @@ alias cdw='c $dwn'
 alias ctrh='c $trh'
 alias cdt='c $dotfiles'
 alias cdr='c "$drive"'
+alias cpr='c $programming'
 
 # Classes Folders
 alias ccl='c $class'
