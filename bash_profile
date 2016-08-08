@@ -26,7 +26,7 @@ export linear="$class/stat512"
 export compiler="$class/cs352"
 export work="$home/programming/projects/vitamin-builder"
 
-# Startup file locations
+# Startup companies file locations
 export materialIonic="$home/programming/projects/material-ionic-titan-app"
 export regularIonic="$home/programming/projects/regular-ionic-titan-app"
 export regularTitanTemplates="$regularIonic/www/templates"
