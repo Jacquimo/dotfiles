@@ -96,6 +96,7 @@ alias cuel='cem | l'
 alias nrun='npm start > npmOutputLog.txt &' # This command is what I use to start the Vitamin Builder web application
 alias cnl='cat $vitNpmLog'
 alias cnll='cnl | l'
+alias kvt='pkill npm'
 
 # commands to test internet connection by pinging Google
 alias tg='ping 8.8.8.8'
