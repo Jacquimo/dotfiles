@@ -15,8 +15,13 @@ export dwn="$HOME/Downloads"
 export trh="$HOME/.trash"
 export dotfiles="$HOME/dotfiles"
 export data="ghousto@data.cs.purdue.edu" # CS Department "Data" remote server to ssh into
-export drive="$HOME/Google Drive" # Quotation marks must be used with this var b/c of space. E.g. `c "$drive"
 export usefulEmacs="$dotfiles/usefulEmacsInfo.txt"
+
+# Google Drive mounted folder locations
+#######   !!! IMPORTANT !!!   #######
+#######   Quotation marks must be used with this variable b/c of space. E.g. `c "$drive"
+#######   !!! IMPORTANT !!!   #######
+export drive="$HOME/Google Drive"
 
 # Programming Directory locations
 		# These locations may change frequently, as I will put down locations that I am using at the current time.
@@ -97,6 +102,7 @@ alias nrun='npm start > npmOutputLog.txt &' # This command is what I use to star
 alias cnl='cat $vitNpmLog'
 alias cnll='cnl | l'
 alias kvt='pkill npm'
+alias untrack='git update-index --assume-unchanged $(git ls-files -z)'
 
 # commands to test internet connection by pinging Google
 alias tg='ping 8.8.8.8'
