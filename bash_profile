@@ -53,6 +53,12 @@ export PS1='\[\e[01;30m\]\t`if [ $? = 0 ]; then echo "\[\e[32m\] ✔ "; else ech
 PS1="\n$PS1\n$ "
 
 
+# -----------------------------------
+# ALIASES THAT MUST BE DECLARED FIRST
+# -----------------------------------
+alias ps='ps -c '
+
+
 
 # ----------
 # LS ALIASES
@@ -103,6 +109,7 @@ alias cnl='cat $vitNpmLog'
 alias cnll='cnl | l'
 alias kvt='pkill npm'
 alias untrack='git update-index --assume-unchanged $(git ls-files -z)'
+alias wrun='ps -A | l' # named as an abreviation for "What's RUNning"
 
 # commands to test internet connection by pinging Google
 alias tg='ping 8.8.8.8'
